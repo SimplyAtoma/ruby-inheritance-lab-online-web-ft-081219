@@ -1,3 +1,13 @@
 class Student < User
-    @@knowledge = []
+    def new
+      @@knowledge = []
+    end
+    
+    def learn
+      
+    end
+    
+    def knowledge
+      @@knowledge
+    end
 end
